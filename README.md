@@ -1,4 +1,6 @@
 Shopping cart using React that allows users to add and remove items from the cart.
+
+
 1.The shopping cart should display a list of available products with their name and description.
 
 
