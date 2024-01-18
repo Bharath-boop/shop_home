@@ -12,15 +12,15 @@ function Card({cardData,cart,setCart}) {
               <h5 className="fw-bolder">{data.name}</h5>
                {
                 data.star?<div className="d-flex justify-content-center small text-warning mb-2">
-                    <div class="bi-star-fill"></div>
-                    <div class="bi-star-fill"></div>
-                    <div class="bi-star-fill"></div>
-                    <div class="bi-star-fill"></div>
-                    <div class="bi-star-fill"></div>
+                    <div className="bi-star-fill"></div>
+                    <div className="bi-star-fill"></div>
+                    <div className="bi-star-fill"></div>
+                    <div className="bi-star-fill"></div>
+                    <div className="bi-star-fill"></div>
                     </div> :""
                }
           {
-            data.isPrice?<>{data.price1}-{data.price2}</>:<><span class="text-muted text-decoration-line-through">{data.price1}</span> {data.price2}</>
+            data.isPrice?<>{data.price1}-{data.price2}</>:<><span className="text-muted text-decoration-line-through">{data.price1}</span> {data.price2}</>
             
           } 
           </div>
